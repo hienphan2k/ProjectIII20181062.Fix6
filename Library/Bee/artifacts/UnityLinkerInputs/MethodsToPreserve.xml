@@ -1,0 +1,19 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Launcher">
+			<method name="CloseErrorScreen"/>
+			<method name="CloseRoomBrowser"/>
+			<method name="CreateRoom"/>
+			<method name="LeaveRoom"/>
+			<method name="OpenRoomBrowser"/>
+			<method name="OpenRoomCreate"/>
+			<method name="QuickJoin"/>
+			<method name="QuitGame"/>
+			<method name="SetNickname"/>
+			<method name="StartGame"/>
+		</type>
+		<type fullname="RoomButton">
+			<method name="OpenRoom"/>
+		</type>
+	</assembly>
+</linker>
